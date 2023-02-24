@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const FormS = styled.form`
+    display: flex;
+    flex-direction: column;
+`;
+
 export const FilterLabel = styled.label`
     display: flex;
     align-items: center;
