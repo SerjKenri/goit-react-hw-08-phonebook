@@ -17,17 +17,16 @@ export const FilterLabel = styled.label`
     border: 1px solid #a9a9a9;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    max-width: 190px;
 `;
 
 export const FilterInput = styled.input`
     display: flex;
+    align-items: center;
+    justify-items: center;
     flex-direction: column;
-    margin: 0.5rem auto 1rem;
     align-items: center;
     font-size: large;
     text-align: left;
-    padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 8px;
     background-color: #f2f2f2;
     padding: 10px;
